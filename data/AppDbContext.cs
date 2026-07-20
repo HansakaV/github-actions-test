@@ -9,7 +9,7 @@ namespace github_actions_test.data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            base.OnModelCreating();
         }
 
     }
